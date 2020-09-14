@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+
+
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+            <div class="container">
+                <div class="logout">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <button class="btn btn-primary" data-target=".bs-example-modal-sm" data-toggle="modal">התנתק</button>
+                          </li>
+                        <li class="nav-item">
+                            <img src="shopCarddark.png" height="40">
+                          </li>
+                        <li class="nav-item">
+                            <p class="text-light bg-dark" >שלום,מנהל</p>
+                          </li>
+                    </ul>  
+                </div>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item" href="#">
+                        <div class="dropdown" >
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              ניהול  
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="nav-link" href="#">הזמנות</a>
+                            </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ההזמנות שלי </a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">הפרטים שלי </a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">כלי נגינה</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">אודות</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">דף הבית</a>
+                    </li>
+                    <li class="nav-item">
+                        <img src="logo.PNG" alt="מיוזקלי" >
+                      </li>
+                  </ul>
+                  
+                </div>
+              </div>
+        </nav>
+
+        <div id="cards-music">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card text-center h-100">
+                            <img src="guitar.png" alt="Guitar" height="200">
+                            <div class="card-body">
+                                <h5 class="card-title">גיטרה</h5>
+                                <p class="card-text">גיטרה יפה</p>
+                                <p class="card-text">700₪</p>
+                                <button class="btn btn-primary">
+                                    <img src="shopCard.png" width="20" class="float-right"/> הוספה לעגלה
+                               </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-center h-100">
+                            <img src="mapuhit.jpg" alt="mapuhit" height="200">
+                            <div class="card-body">
+                                <h5 class="card-title">מפוחית</h5>
+                                <p class="card-text">מפוחית שימושית</p>
+                                <p class="card-text">200₪</p>
+                                <button class="btn btn-primary">
+                                    <img src="shopCard.png" width="20" class="float-right"/> הוספה לעגלה
+                               </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-center h-100">
+                            <img src="halil.jpg" alt="halil" height="200">
+                            <div class="card-body">
+                                <h5 class="card-title">חליל</h5>
+                                <p class="card-text">חליל יפה</p>
+                                <p class="card-text">1000₪</p>
+                                <button class="btn btn-primary">
+                                    <img src="shopCard.png" width="20" class="float-right" /> הוספה לעגלה
+                               </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="dropdown" >
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              סוג כלי נגינה
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                            <nav class="navbar navbar-light bg-light">
+                                <form class="form-inline">
+                                  <input class="form-control mr-sm-2" type="search" placeholder="חפש כלי נגינה" aria-label="Search">
+                                </form>
+                              </nav>
+                                <p>מחיר</p>
+                                <div class="form-check" >
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label " for="defaultCheck1" >
+                                      עד 500₪
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                      500-1000₪
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                      1000-1500₪
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                      1500-2000₪
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                      2000 ומעלה₪
+                                    </label>
+                                  </div>
+                                  
+                          </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card text-center h-100">
+                            <img src="violin.jpg" alt="violin" height="200">
+                            <div class="card-body">
+                                <h5 class="card-title">כינור</h5>
+                                <p class="card-text">כינור ארוך</p>
+                                <p class="card-text">1500₪</p>
+                                <button class="btn btn-primary">
+                                    <img src="shopCard.png" width="20" class="float-right" /> הוספה לעגלה
+                               </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-center h-100">
+                            <img src="klarnit.jpg" alt="klarnit" height="200">
+                            <div class="card-body">
+                                <h5 class="card-title">קלרינת</h5>
+                                <p class="card-text">הקלרינת של סקווידויד</p>
+                                <p class="card-text"></p>2000₪</p>
+                                <button class="btn btn-primary">
+                                    <img src="shopCard.png" width="20" class="float-right"/> הוספה לעגלה
+                               </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-center h-100">
+                            <img src="trumbon.jpg" alt="trumbon" height="200">
+                            <div class="card-body">
+                                <h5 class="card-title">טרומבון</h5>
+                                <p class="card-text">טרומבון ענק</p>
+                                <p class="card-text">750₪</p>
+                                <button class="btn btn-primary">
+                                    <img src="shopCard.png" width="20" class="float-right" /> הוספה לעגלה
+                               </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    </body>
+</html>
